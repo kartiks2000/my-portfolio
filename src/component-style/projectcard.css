@@ -1,0 +1,74 @@
+.projectcard{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 2rem;
+    overflow: hidden;
+    margin: 2rem;
+}
+
+.pro-title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    font-size: 1.4rem;
+    padding: .5rem;
+    color: darkorange;
+    background-color: greenyellow;
+}
+
+.card{
+    width: 21rem;
+    overflow: hidden;
+    height: 32rem;
+    background-color: rgb(126, 221, 238);
+}
+
+.project-pic-box{
+    height: 45%;
+    width: 100%;
+    /* border: 4px solid black; */
+    overflow: hidden;
+}
+
+ul{
+    margin: 1rem;
+    list-style-type: none;
+}
+
+.f-used{
+    margin-bottom: .6rem;
+    font-size: 1.2rem;
+    color: teal;
+}
+
+.guided{
+    margin-top: .6rem;
+    color: red;
+}
+
+.nor{
+    color: plum;
+}
+
+.live-btn{
+    color: black;
+    border: 1px solid darkorange;
+    background-color: cornsilk;
+    padding: .4rem;
+    border-radius: 20rem;
+}
+
+.live-btn:hover{
+    background-color: orangered;
+    color: cyan;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pro-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

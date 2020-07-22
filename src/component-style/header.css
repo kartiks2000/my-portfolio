@@ -1,0 +1,35 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+.li{
+    list-style-type: none;
+    padding: 0 3rem;
+    text-decoration: none;
+}
+
+.act{
+    color: orangered;
+}
+
+.nav1{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width:670px){
+    .li{
+        padding: 0 1.2rem;
+    }
+}
+
+@media screen and (max-width:417px){
+    .li{
+        padding: 0 .8rem;
+    }
+}
