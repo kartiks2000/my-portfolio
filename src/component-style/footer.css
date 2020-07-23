@@ -1,5 +1,5 @@
 .myname1{
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     color: orangered;
 }
 
@@ -10,13 +10,29 @@
 
 .footer-dev-text{
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: .6rem;
+    font-size: 1.5rem;
+    color: gray;
 }
 
 .footer-dev-text2{
     margin-bottom: .9rem;
+    color: gray;
 }
 
 .footer-dev-text3{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    color: gray;
+}
+
+.social-icon2{
+    padding: .2rem;
+}
+
+.my-icon2{
+    margin: .8rem;
+}
+
+.react-hi1{
+    color: darkblue;
 }

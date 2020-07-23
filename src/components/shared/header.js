@@ -7,10 +7,10 @@ const Header = () => {
     return(
         <div className="header">
             <nav className="nav1">
-                <NavLink className="li" activeClassName="act" exact to="/home">Home</NavLink>
+                <NavLink className="li" activeClassName="act" to="/home">Home</NavLink>
                 <NavLink className="li" activeClassName="act" to="/aboutme">About Me</NavLink>
                 <NavLink className="li" activeClassName="act" to="/projects">Projects</NavLink>
-                <NavLink className="li" activeClassName="act" to="/l">Contact</NavLink>
+                <NavLink className="li" activeClassName="act" to="/contact">Contact</NavLink>
             </nav>
         </div>
     );

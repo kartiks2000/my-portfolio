@@ -1,0 +1,118 @@
+.contact-bg1{
+    background-color:lightblue;
+    padding: 2rem;
+}
+
+.contact-box{
+    margin: auto;
+    padding: 1rem;
+    max-width: 35rem ;
+    border: 2px solid red;
+    background-color: lightyellow;
+    min-height: 8rem;
+    margin-bottom: 4rem;
+}
+
+.contact-box:hover{
+    
+}
+
+.con-icon{
+    color: orange;
+    font-size: 2rem;
+    margin: 1rem;
+    margin-top: .6rem;
+}
+
+.my-num1{
+    padding-top: .4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+}
+
+.con-heading{
+    padding: .2rem;
+    padding-bottom: 2rem;
+    color: orange;
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.con-email{
+    padding-top: .4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: orangered;
+}
+
+.con-form-box{
+    /* border: 2px solid darkkhaki;    */
+}
+
+.form-box-c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input,textarea{
+    margin: 1rem;
+    border: none;
+    outline: none;
+    width: 25rem;
+    height: 2.2rem;
+    padding: .8rem;
+    border-bottom: 2px solid orangered;
+    font-size: 1rem;
+    background-color: palegoldenrod;
+    box-shadow: 3px 3px rgb(66, 69, 70);
+    color: red;
+}
+
+input{
+    border-radius: 20rem;
+}
+
+.con-msg-1{
+    height: 10rem;
+}
+
+.con-subm1{
+    width: 8rem;
+    text-align: center;
+}
+
+.con-subm1:hover{
+    background-color: orange;
+    color: orangered;
+}
+
+.con-drop-m{
+    margin: 1.2rem;
+    color: orange;
+    /* text-transform: uppercase; */
+}
+
+@media screen and (max-width:625px){
+    .con-email{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width:511px){
+    .con-email{
+        font-size: 1.2rem;
+    }
+    input,textarea{
+        width: 80vw;
+    }
+    .con-subm1{
+        width:8rem;
+    }
+}
+
+@media screen and (max-width:421px){
+    .con-email{
+        font-size: 1rem;
+    }
+}

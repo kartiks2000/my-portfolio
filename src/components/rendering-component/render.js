@@ -6,6 +6,7 @@ import Home from '../home/home';
 import Aboutme from '../aboutme/aboutme';
 import Projects from '../project/project';
 import Footer from '../../components/shared/footer';
+import Contact from '../contact/contact';
 
 const Render = () => {
 
@@ -16,6 +17,7 @@ const Render = () => {
             <Route exact path="/projects" component={Projects}></Route>
                 <Route exact path="/aboutme" component={Aboutme}></Route>
                 <Route exact path="/home" component={Home}></Route>
+                <Route exact path="/contact" component={Contact}></Route>
                 <Redirect from="" to="/home"></Redirect>
             </Switch>
             <Footer></Footer>
