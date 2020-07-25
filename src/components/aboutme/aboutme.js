@@ -20,7 +20,7 @@ const Aboutme = (props) => {
                     Coming back to pro talks, After about one and a half years of massive deep dive into competitive programing and learning from the basics to training my mind for problem solving approach, I decided to switch for development. 
                 </p>
                 <p className="at">
-                    Till date i have explored and worked on technologies starting from <span className="heighligh1">HTML</span>, <span className="heighligh1">CSS</span> ,<span className="heighligh1">Javascript</span> ,<span className="heighligh1">jQuery</span> ,<span className="heighligh1">Typescript</span> and some Javascript frameworks like <span className="heighligh1">Reactjs</span> ,<span className="heighligh1">Vuejs</span> ,<span className="heighligh1">jQuery</span> ,<span className="heighligh1">React Native</span>. i have also designed and devveloped many minor projects on the above stated technology and is now aiming to get some real life experience.
+                    Till date i have explored and worked on technologies starting from <span className="heighligh1">HTML</span>, <span className="heighligh1">CSS</span> ,<span className="heighligh1">Javascript</span> ,<span className="heighligh1">jQuery</span> ,<span className="heighligh1">Typescript</span> and some Javascript frameworks like <span className="heighligh1">Reactjs</span> ,<span className="heighligh1">Vuejs</span> ,<span className="heighligh1">jQuery</span> ,<span className="heighligh1">React Native</span>. i have also designed and developed many minor projects on the above stated technology and is now aiming to get some real life experience.
                 </p>
                 <h2 className="thankyou">Thankyou....</h2>
             </div>

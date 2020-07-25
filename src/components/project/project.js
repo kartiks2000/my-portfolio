@@ -11,6 +11,10 @@ const Project = () => {
         {title:"student portal" ,pic:require('../../images/vuejs.png') ,techused:["Vuejs","HTML","CSS",] ,feature: "" ,github:"https://github.com/kartiks2000/Vuejs-Student-portal-project" ,hosted:"" ,guided: false},
         {title:"React filter" ,pic:require('../../images/reactjs.png'),techused:["Reactjs","HTML","CSS"] ,feature: "" ,github:"https://github.com/kartiks2000/React-filter" ,hosted:"https://reactfilters.netlify.app/" ,guided: false},
         {title:"Vue Counter" ,pic:require('../../images/vuejs.png') ,techused:["Vuejs","HTML","CSS"] ,feature: "" ,github: "https://github.com/kartiks2000/Vuejs-counter",hosted:"" ,guided: false},
+        {title:"ToDo mobile app" ,pic: require('../../images/react-native.png'),techused:["React Native App","Android","ios"] ,feature: "" ,github:"https://github.com/kartiks2000/React-native-ToDo-App" ,hosted:"" ,guided: false},
+        {title:"Contact app" ,pic:require('../../images/react-native.png'),techused:["React Native App","Android","ios"] ,feature: "" ,github:"https://github.com/kartiks2000/RN-Contact-dairy-app" ,hosted:"" ,guided: false},
+        {title:"Guessing game" ,pic:require('../../images/react-native.png'),techused:["React Native App","Android","ios"] ,feature: "" ,github:"https://github.com/kartiks2000/RN-Guessing-game-app-" ,hosted:"" ,guided: true},
+        {title:"Counter app" ,pic:require('../../images/react-native.png'),techused:["React Native App","Android","ios"] ,feature: "" ,github:"https://github.com/kartiks2000/RN-Counter-App" ,hosted:"" ,guided: false},
         {title:"React Todo" ,pic:require('../../images/reactjs.png') ,techused:["Reactjs","HTML","CSS"] ,feature: "" ,github: "https://github.com/kartiks2000/React-todo",hosted: "https://reactjstodoks.netlify.app/" ,guided: false},
         {title:"Vehicle inven." ,pic:require('../../images/reactjs.png') ,techused:["Reactjs","HTML","CSS"] ,feature: "" ,github:"" ,hosted:"" ,guided: false},
         {title:"React register" ,pic:require('../../images/reactjs.png'),techused:["Reactjs","HTML","CSS"] ,feature: "" ,github:"https://github.com/kartiks2000/React-info-register" ,hosted:"https://reactjsform.netlify.app/" ,guided: false},
@@ -32,13 +36,13 @@ const Project = () => {
         {title:"Natours" ,pic:require('../../images/htmlcss.jpg'),techused:["JS","HTML","CSS(SASS)"] ,feature: "" ,github:"https://github.com/kartiks2000/Natours" ,hosted:"https://natoursks.netlify.app/" ,guided: true},
         {title:"Img Coarousel" ,pic:require('../../images/js.jpg'),techused:["Vanilla JS","HTML","CSS"] ,feature: "" ,github:"https://github.com/kartiks2000/Automatic-Picture-Carousel" ,hosted:"https://autopicturecarousel.netlify.app/" ,guided: false},
         {title:"Trello" ,pic:require('../../images/htmlcss.jpg'),techused:["JS","HTML","CSS(SASS)"] ,feature: "" ,github:"https://github.com/kartiks2000/Trello" ,hosted:"https://trilloks.netlify.app/" ,guided: true},
-        // {title:"" ,pic:"",techused:["Vanilla JS","HTML","CSS"] ,feature: "" ,github:"" ,hosted:"" ,guided: true},
+        // {title:"" ,pic:"",techused:["Vanilla JS","HTML","CSS"] ,feature: "" ,github:"" ,hosted:"" ,guided: false},
         // {title:"" ,techused:[] ,feature: "" ,github: ,hosted:"" ,guided: false},
     ]);
 
     return(
         <div className="projects">
-            <h1 className="pro-note">NOTE-: Vue projects are not live but accept that almost all projects are live and accessible, for more information regarding projects kindly refer to the respective Github repository.</h1>
+            <h1 className="pro-note">NOTE-: Mobile Apps and Vue projects are not live but accept that almost all projects are live and accessible, for more information regarding projects kindly refer to the respective Github repository.</h1>
             {pro.map(pro => {
                 return (<Projectcard title={pro.title} pic={pro.pic} techused={pro.techused} feature={pro.feature} github={pro.github} hosted={pro.hosted} guided={pro.guided}></Projectcard>);
             })

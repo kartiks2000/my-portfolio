@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="pic-box"></div>
                 <div className="text-content">
                     <h1 className="intro-line">Hi, I am <span className="myname">Kartik Saxena</span></h1>
-                    <h1 className="intro-text">I am currently a Frontend developer and a Fullstack developer in making....</h1>
+                    <h1 className="intro-text">I am currently a Frontend Web & a Mobile developer and a Fullstack developer in making....</h1>
                     <div className="social-icon">
                         <a target="blank" href="https://github.com/kartiks2000"><FontAwesomeIcon className="my-icon" icon={['fab', 'github']} size="2x" /></a>
                         <a target="blank" href="https://www.linkedin.com/in/kartik-saxena-aa3378168/"><FontAwesomeIcon className="my-icon" icon={['fab', 'linkedin']} size="2x" /></a>                        
