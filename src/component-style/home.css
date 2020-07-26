@@ -49,7 +49,6 @@
     font-size: 1.6rem;
     padding: 1rem 1.5rem;
     font-family: 'Courier New', Courier, monospace;
-    color: red;
 }
 
 .my-skills{
@@ -82,7 +81,7 @@ a:active , a:visited{
         margin: 1.2rem;
     }
     .home{
-        min-height: 150vh;
+        min-height: 140vh;
     }
 }
 
