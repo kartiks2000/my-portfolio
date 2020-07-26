@@ -6,14 +6,14 @@
 
 .home{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    min-height: 100vh;
+    min-height: 120vh;
     position: relative;
 }
 
 .intro{
     margin-top: 4rem;
     min-width: 90%;
-    min-height: 82%;
+    min-height: 86%;
     background-color: palegreen;
     position: absolute;
     top: 40%;
@@ -36,12 +36,20 @@
 }
 
 .intro-line{
-    margin: 0rem;
+    margin: 3rem 0rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.myname1{
+    color: orangered;
 }
 
 .intro-text{
     margin: 2rem 0;
     font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
 }
 
 .my-skills{
@@ -69,8 +77,12 @@ a:active , a:visited{
     text-decoration: none;
 }
 
-@media screen and (max-width:409px){
+@media screen and (max-width:505px){
     .my-icon{
         margin: 1.2rem;
     }
+    .home{
+        min-height: 150vh;
+    }
 }
+

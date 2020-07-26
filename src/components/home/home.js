@@ -11,7 +11,7 @@ const Home = () => {
             <div className="intro">
                 <div className="pic-box"></div>
                 <div className="text-content">
-                    <h1 className="intro-line">Hi, I am <span className="myname">Kartik Saxena</span></h1>
+                    <h1 className="intro-line">Hi, I am <span className="myname1">Kartik Saxena</span></h1>
                     <h1 className="intro-text">I am currently a Frontend Web & a Mobile developer and a Fullstack developer in making....</h1>
                     <div className="social-icon">
                         <a target="blank" href="https://github.com/kartiks2000"><FontAwesomeIcon className="my-icon" icon={['fab', 'github']} size="2x" /></a>
